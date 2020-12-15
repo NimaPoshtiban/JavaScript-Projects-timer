@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.js"></script>
+  </head>
+  <body>
+    <div class="timer">
+      <div class="controls">
+        <input id="duration" value="30" />
+        <div>
+          <button id="start" class="ui button icon teal" ><i class="play icon"></i></i></button>
+          <button id="pause" class="ui button icon teal"><i class="pause icon"></i></i></button>
+        </div>
+      </div>
+      <svg class="dial">
+        <circle
+          fill="transparent"
+          stroke="#479F98"
+          stroke-width="15"
+          r="190"
+          cx="0"
+          cy="200"
+          transform="rotate(-90 100 100)"
+        />
+      </svg>
+    </div>
+    <script src="timer.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
