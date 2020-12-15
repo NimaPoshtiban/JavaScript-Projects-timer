@@ -1,4 +1,8 @@
 # JavaScript-Projects
-some little JavaScript Projects
-## Still in progress
+A simple timer in vanilajs 
+## Timer
  1.A Simple Timer
+###Technologies
+1.fontawsome
+2.Fomantic-ui
+
